@@ -1,0 +1,48 @@
+/* As configurações do elemento pai, body e demais partes da div:pagina estão no Geral.css */
+
+#login{
+     width:100%;
+    height: 50%;  /*VH - viewport height (a altura do visor/ a ocupação na tela)*/
+    display: flex; /*O display (ou flexbox) fica sempre no elemento pai*/
+    justify-content:center; /*Para posicionar os conteúdos da tela*/
+    align-items: center; /*posicionar os conteúdos da tela*/
+    flex-wrap: wrap;
+    float: inherit;
+    gap: 40px;
+}
+main{
+    width: 50%;
+    height: 600px;
+    margin:25%;
+    border-radius: 30px;
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(62, 59, 59, 0.41);
+}
+
+#formulario{
+    margin: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #d6883adc;
+    font-size: 20px;
+}
+
+input{
+    height: 30px;
+    background-color:#d6883a6b;
+    border-style: none;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    color: azure;
+    background-color:#d6883a6b;
+
+}
