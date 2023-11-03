@@ -1,6 +1,6 @@
-#cadastro{
+#login{
     width:100%;
-   height: 50%;  /*VH - viewport height (a altura do visor/ a ocupação na tela) */
+   height: 50%;  /*VH - viewport height (a altura do visor/ a ocupação na tela)*/
    display: flex; /*O display (ou flexbox) fica sempre no elemento pai*/
    justify-content:center; /*Para posicionar os conteúdos da tela*/
    align-items: center; /*posicionar os conteúdos da tela*/
@@ -11,14 +11,14 @@
 main{
    width: 50%;
    height: 600px;
-   margin: 25%;
+   margin:25%;
    border-radius: 30px;
-   display: flex;
+   display:flex;
    gap: 40px;
    align-items: center;
-   justify-content: center;
    text-align: center;
-   background-color: rgba(136, 41, 41, 0.41);
+   justify-content: center;
+   background-color: rgba(62, 59, 59, 0.41);
 }
 
 #formulario{
@@ -26,7 +26,7 @@ main{
    display: flex;
    flex-direction: column;
    gap: 25px;
-   color: #d96f05dc;
+   color: #d6883adc;
    font-size: 20px;
 }
 
@@ -45,31 +45,32 @@ button{
 
 } */
 
+
 input{
-   width: 300px;
-   height: 30px;
-   border-radius: 8px;
-   background-color: rgba(233, 176, 18, 0.306);
-   font-size:16px;
-   transition: 0.5s;
-   border: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(233, 176, 18, 0.306);
+    font-size:16px;
+    transition: 0.5s;
+    border: none;
 }
 input:hover{
-   transition: 0.3s;
-   background-color: #ffffff;
-   
+    transition: 0.3s;
+    background-color: #cfcece;
+    
 }
 
 input:focus{
-   width: 400px;
-   height: 40px;
-   transition: 0.5s;
-   background-color: #ffffff;
+    width: 400px;
+    height: 40px;
+    transition: 0.5s;
+    background-color: #ffffff;
 }
 button{
-   width: 200px;
-   height: 35px;
-   margin: 20px;
-   border-radius: 40px;
-background-color: rgba(231, 165, 12, 0.681);
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 40px;
+ background-color: rgba(231, 165, 12, 0.681);
 }

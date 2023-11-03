@@ -32,7 +32,7 @@ main{
     font-size: 20px;
 }
 
-input{
+/* input{
     height: 30px;
     background-color:#d6883a6b;
     border-style: none;
@@ -45,4 +45,33 @@ button{
     color: azure;
     background-color:#d6883a6b;
 
+} */
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(233, 176, 18, 0.306);
+    font-size:16px;
+    transition: 0.5s;
+    border: none;
+}
+input:hover{
+    transition: 0.3s;
+    background-color: #cfcece;
+    
+}
+
+input:focus{
+    width: 400px;
+    height: 40px;
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+button{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 40px;
+ background-color: rgba(231, 165, 12, 0.681);
 }
