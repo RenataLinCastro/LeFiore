@@ -1,3 +1,5 @@
+
+
 #cadastro{
     width:100%;
    height: 50%;  /*VH - viewport height (a altura do visor/ a ocupação na tela) */
@@ -7,6 +9,7 @@
    flex-wrap: wrap;
    float: inherit;
    gap: 40px;
+   background-color: #E3D5CA;
 }
 main{
    width: 50%;
@@ -18,7 +21,7 @@ main{
    align-items: center;
    justify-content: center;
    text-align: center;
-   background-color: rgba(136, 41, 41, 0.41);
+   background-color: #8829296e;
 }
 
 #formulario{
@@ -26,35 +29,21 @@ main{
    display: flex;
    flex-direction: column;
    gap: 25px;
-   color: #d96f05dc;
+   color: rgb(241, 241, 241);
    font-size: 20px;
 }
 
-/* input{
-   height: 30px;
-   background-color:#d6883a6b;
-   border-style: none;
-}
-
-button{
-   width: 100px;
-   height: 25px;
-   margin: 10px;
-   color: azure;
-   background-color:#d6883a6b;
-
-} */
 
 input{
    width: 300px;
    height: 30px;
    border-radius: 8px;
-   background-color: rgba(233, 176, 18, 0.306);
-   font-size:16px;
+   background-color: #ffffff;
    transition: 0.5s;
    border: none;
 }
 input:hover{
+   color: #96626291;
    transition: 0.3s;
    background-color: #ffffff;
    
@@ -66,10 +55,19 @@ input:focus{
    transition: 0.5s;
    background-color: #ffffff;
 }
+
+::placeholder{
+   color: #853d3dea;
+}
 button{
    width: 200px;
    height: 35px;
    margin: 20px;
    border-radius: 40px;
-background-color: rgba(231, 165, 12, 0.681);
+background-color: #853d3dce;
+}
+button:focus{
+   width: 300px;
+   height: 40px;
+   transition: 0.2s;
 }

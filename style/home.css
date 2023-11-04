@@ -8,7 +8,7 @@ main{
     flex-wrap: wrap;
 
 }
-#banner{
+#bannerDeInicio{
     width: 80%;
     height: 100vw;
     display: flex;
@@ -22,6 +22,7 @@ main{
     flex-wrap: wrap;
 
 }
+
 
 #sectionItens{
     width: 100%;
@@ -73,3 +74,4 @@ main{
         display: flex;
     
     }
+    
