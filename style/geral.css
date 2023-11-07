@@ -6,6 +6,7 @@
 header,footer{
     height: auto;
     width: 100%;
+<<<<<<< Updated upstream
     background-color: #853d3d7b;
 }
 aside{
@@ -46,6 +47,29 @@ h6{
 
 
 
+=======
+    /* display: flex; */
+    background-color: #000000cc;
+}
+aside{
+    text-align: center;
+    /* background-color: rgba(0, 0, 255, 0.455); */
+}
+nav{
+    text-align: right;
+    /* background-color: rgba(127, 255, 212, 0.427); */
+}
+h1{
+    font-size: 60px;
+    color: #b7a228;
+}
+a{
+    font-size: 15px;
+    margin: 4px;
+    text-decoration: none;
+    color: #b7a228;
+}
+>>>>>>> Stashed changes
 
 
 
