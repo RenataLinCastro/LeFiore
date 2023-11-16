@@ -6,50 +6,9 @@
 header,footer{
     height: auto;
     width: 100%;
-<<<<<<< Updated upstream
-    background-color: #853d3d7b;
-}
-aside{
-    /* background-color: #00ffff62; */
-}
-h1{
-    font-size: 40px;
-    text-align: center;
-    color: white;
-}
-
-nav{
-    text-align: left;
-    /* background-color: #892be275; */
-}
-a{
-    text-decoration: none;
-    margin: 5px;
-    color: white;
-}
-footer{
-    width: 100%;
-    height: 50px;
-    padding: 10px 0px;
-    line-height: 40px;
-    text-align: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-h6{
-    font-size: 20px;
-    color: white;
-}
-
-
-
-
-
-
-=======
     /* display: flex; */
-    background-color: #000000cc;
+    background-color: #644242cc;
+    color: #a49a22;
 }
 aside{
     text-align: center;
@@ -60,17 +19,20 @@ nav{
     /* background-color: rgba(127, 255, 212, 0.427); */
 }
 h1{
-    font-size: 60px;
-    color: #b7a228;
+    font-size: 50px;
+    color: #a49a22;
+    text-align: center;
 }
-a{
-    font-size: 15px;
+header a{
+    font-size: 20px;
     margin: 4px;
     text-decoration: none;
-    color: #b7a228;
+    color: #b8ae3c;
 }
->>>>>>> Stashed changes
-
+footer{
+    text-align: center;
+    font-size: 30px;
+}
 
 
 
