@@ -9,25 +9,20 @@ main{
 
 }
 #bannerDeInicio{
-    width: 80%;
-    height: 100vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;   /*Presta atenção nesse cara*/
 }
-.principal img{
-    width: 10%;
-    height: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-
+.banner img{
+    width: 100%;
+    padding: 40px;
 }
+
 
 
 #sectionItens{
     width: 100%;
      /* height: 300px; */
-     background-color:#ECF39E;
      /* Configuração padrão: topo, esquerda e em coluna */
      display:flex; /* muda a maneira de mostrar no navegador*/
      flex-direction:row;/*row - linha e column - coluna*/
@@ -43,7 +38,7 @@ main{
      padding: 20px;
      border-radius: 10px;
      font-family: 'Times New Roman', Times, serif;
-     background-color: #ffffff;
+     background-color: #55505059;
      border-color: #ffffff;
     }
     .itemImagem{
@@ -58,11 +53,11 @@ main{
     .itemDescricao h3{
         width: 100%;
         height: 50%;
-        color: #3c5d3c;
+        color: #ffffff;
     }
-    .itemDescrição p{
+    p{
         margin: 10px 0px;
-        background-color: #ffffff;
+        color: #ffffff;
     }
     .itemValor{
         font-size: 14pt;
@@ -70,8 +65,40 @@ main{
     }
     #sectionItens{
         width: 100%;
-        background-color: #ECF39E;
+        background-color: #000000;
         display: flex;
     
+    }
+
+    .card, .card img{
+        border-radius: 0%;
+        padding: 3rem;    
+    }
+    .card{
+        border: var(--preto) 2px solid;
+    }
+    .card button{
+        background-color: var(--rosa);
+        color: var(--preto);
+        border: none;
+    }
+    
+    #bannerBeneficios{
+        background-color: grey;
+        display: flex;
+    }
+    aside h4{
+        text-align: left;
+    }
+    
+    #cardImagem{
+        background-color:#c7c730;
+        width:100%;
+    }
+    .cardx img{
+         
+    }
+    .cardx{
+        border: var(--preto) 2px;
     }
     

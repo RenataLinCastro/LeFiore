@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../../style/geral.css">
     <link rel="stylesheet" href="../../style/produtos/perfume.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
 <body>
     <div id="pagina">
         <header>
@@ -17,47 +17,111 @@
                 <h1>LeFiore</h1>
                 <ul>
                     <a href="#">Perfumes</a>
-                    <a href="#">Acessórios</a>
-                    <a href="#">Sobre nós</a>
+                    <a href="../../pages/produtos/acessórios.html">Acessórios</a>
+                    <a href="../../">Sobre nós</a>
                     <a href="../../index.html">Home</a>
                     <a href="../login e cadastro/login.html">Entre</a>
                 </ul>
             </nav>
         </header>
         <main>
-            <div id="carouselLançaento" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+          <section id="bannerSection" class="container-fluid p-0 m-0 ">
+            <!-- Primeira Maneira:-->
+            <!--conteiner-flid width 100% -->
+            <!-- container width 80% -->
+            <!-- p padding -->
+            <!-- m margin -->
+            <!-- bg-x  background-->
+            <!-- lg breakpoint -->
+            <div id="bannerPrimeiroMetodo" class="container-fluid p-0 m-0 d-flex align-items-center">
+              <!-- <img src="../../image/perfumes/pexels-tati-lebedenko-17461551 1 (1).png" class=" container-fluid w-100 my-2 mx-5 p-1 d-flex" alt=""> -->
+              <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="../../image/perfumes/lançamento 2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="../../image/perfumes/lançamento1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
                     <img src="../../image/perfumes/lançamento3.jpg" class="d-block w-100" alt="...">
                   </div>
+                  <div class="carousel-item">
+                    <img src="../../image/perfumes/lançamento1.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            </div>
+        </section>
+              <section id="bannerBeneficios">
+                <aside class="ladoDireio">
+                  <h3>
+                    Conheça o novo Versace Eau Fraiche
+                  </h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non molestias tempore, unde rem inventore doloribus, praesentium minus consectetur illo placeat voluptatibus porro? Expedita et in cum eaque voluptatem eveniet odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ab? Dignissimos amet culpa repellendus laudantium voluptas nisi iste delectus, similique rerum quis fugit quibusdam minima tempore eveniet, non eum consectetur!
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </aside>
+                <aside class="ladoEsquerdo">
+                  <img src="../../image/perfumes/laçamento4.jpg" alt="">
+                </aside>
+            </section>
+            <section id="catalogoSection" class="container-fluid text-center">
+              <h3 class="my3" style="color:var(--laranja);">Perfumes masculinos</h3>
+              <div id="produtosGrupo" class="d-flex justify-content-center gap-3 container-fluid my-2 p-0 ">
+                <div class="card" style="width: 20rem;">
+                  <img src="../../image/perfumes/couro.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div> 
+                <div class="card" style="width: 20rem;">
+                  <img src="../../image/perfumes/brnco.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>   
+                <div class="card" style="width: 20rem;">
+                  <img src="../../image/perfumes/verde.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>     
+              </div>
+            </section>
+                  
         </main>
-        <footer></footer>
+        <footer>
+        <h6>LeFiore</h6>
+        </footer>
+    </div>
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

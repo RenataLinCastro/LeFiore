@@ -1,0 +1,22 @@
+:root{
+    --preto: #202420;
+    --vermelho: #ba2d2d;
+    --laranja:#f2511b;
+    --laranjaTransparente:#f2511b55;
+    --orange:#f2861b;
+    --amarelo:#c7c730;
+    --branco:white;
+}
+#bannerPrimeiroMetodo{
+    height: 500px;
+    background-size:cover;
+    background-position: top;
+}
+
+#mensagemBanner{
+    width: 300px;
+    opacity: 0,5;
+    padding:3rem;
+    background-color: var(--laranjaTransparente);
+    color: var(--branco);
+}

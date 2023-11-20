@@ -7,16 +7,16 @@ header,footer{
     height: auto;
     width: 100%;
     /* display: flex; */
-    background-color: #644242cc;
+    background-color: #000000;
     color: #a49a22;
 }
-aside{
+.asideEsquerdo{
     text-align: center;
     /* background-color: rgba(0, 0, 255, 0.455); */
 }
-nav{
+nav ul{
     text-align: right;
-    /* background-color: rgba(127, 255, 212, 0.427); */
+    justify-content: right;
 }
 h1{
     font-size: 50px;

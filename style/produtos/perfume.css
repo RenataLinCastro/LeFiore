@@ -1,12 +1,66 @@
 #pagina{
-    background-color: rgba(28, 125, 161, 0.878);
+    background-color: rgba(0, 112, 153, 0.878);
 }
-#carouselLançamento{
-    width: 500%;
-    height: auto;
-
+header, footer{
+    background-color: rgb(24, 109, 109);
 }
-img{
+#bannerPrimeiroMetodo{
+    
+}
+#bannerLancamento{
+    width: 80%;
+    height: 100vw;
+    display: flex;
+}
+#bannerLancamento img{
+    width: 100%;
+}
+.card, .card img{
+    border-radius: 0%;
+    padding: 3rem;    
+}
+.card{
+    border: var(--preto) 2px solid;
+}
+.card button{
+    background-color: var(--rosa);
+    color: var(--preto);
+    border: none;
+}
 
+#bannerBeneficios{
+    background-color: rgba(226, 222, 222, 0.082);
+    display: flex;
+    padding: 40px;
+}
 
+aside{
+    width: 50%;
+    color: #ffffff;
+}
+
+aside h4{
+    text-align: left;
+}
+
+aside img{
+    width: 400px;
+    justify-content:right;
+}
+
+#cardImagem{
+    background-color:#c7c730;
+    width:100%;
+}
+.cardx{
+    border: var(--preto) 2px;
+}
+#produtosGrupo .card{
+    background-color: #ffffff2a;
+    border: none;
+    border-radius: 40px;
+    padding: 40px;
+}
+#produtosGrupo img{
+    border-radius: 100%;
 }
