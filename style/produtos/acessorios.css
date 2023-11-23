@@ -7,16 +7,22 @@
     --amarelo:#c7c730;
     --branco:white;
 }
+main{
+    align-items: center;
+    justify-content: center;
+}
 #bannerPrimeiroMetodo{
-    height: 500px;
     background-size:cover;
     background-position: top;
+    align-items: center;
 }
 
 #mensagemBanner{
-    width: 300px;
     opacity: 0,5;
     padding:3rem;
     background-color: var(--laranjaTransparente);
     color: var(--branco);
+}
+#catalogoSection{
+    background-color: #eec9b7;
 }

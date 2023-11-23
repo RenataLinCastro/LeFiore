@@ -17,20 +17,22 @@
                 <h1>LeFiore</h1>
                 <ul>
                     <a href="../produtos/perfumes.html">Perfumes</a>
+                    <a href="../produtos/bolsas.html">Bolsas</a>
                     <a href="../../">Sobre nós</a>
-                    <a href="../../index.html">Home</a>
+                    <a href="../../index.html">Início</a>
                     <a href="../login e cadastro/login.html">Entre</a>
+                    <a href="../produtos/perfumes.html">Cadastre-se</a>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section id="bannerSection" class="container-fluid p-0 m-0 ">
-                <div id="bannerPrimeiroMetodo" class="container-fluid p-0 m-0 d-flex align-items-center">
+        <main style="">
+            <section id="bannerSection" class="container-fluid p-0 m-0 w-100 ">
+                <div id="bannerPrimeiroMetodo" class="container-fluid p-0 m-0 ">
                     <div class="banneracessorio">
                         <img src="../../image/acessórios/banner acessórios.png" class="container-fluid " alt="">
                     </div>
                 </div>
-                <div id="bannerPrimeiroMetodo" class="container-fluid p-0 m-0 d-flex align-items-center">
+                <div id="bannerPrimeiroMetodo" class="container-fluid p-0 m-0 w-100">
                     <div class="banneracessorio">
                         <img src="../../image/acessórios/baner secundario.jpg" class="container-fluid " alt="">
                     </div>
@@ -40,28 +42,30 @@
                 <h3 class="my3">Acessórios</h3>
                 <div id="produtosGrupo" class="d-flex justify-content-center gap-3 container-fluid my-2 p-0 ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../../image/index/bracelete (2).jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="../../image/index/pulseira.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="../../image/index/brincos.jpg" class="card-img-top" alt="...">
+                        <img src="../../image/index/bracelete (2).jpg" class="card-img-top w-100"alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <h4 style="color:var(--verde);">R$50,00</h4>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acessorioModal"></button>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acessorioModal1">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../image/index/pulseira.jpg"  class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h4 style="color:var(--verde);">R$50,00</h4>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acessorioModal2">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../image/index/brincos.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h4 style="color:var(--verde);">R$50,00</h4>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acessorioModal3">Comprar</button>
                         </div>
                     </div>
                 </div>
@@ -72,11 +76,47 @@
             <h6>LeFiore</h6>
         </footer>
     </div>
-    <div class="modal" id="acessorioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal" id="acessorioModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title fs-5" >Confirma o item no carrinho</h5>
+              <h5 class="modal-title fs-5" >Confirma o item no carrinho?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="../../image/index/bracelete (2).jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+              <button type="button" class="btn btn-primary">Sim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="acessorioModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5" >Confirma o item no carrinho?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="../../image/index/pulseira.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+              <button type="button" class="btn btn-primary">Sim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="acessorioModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5" >Confirma o item no carrinho?</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
