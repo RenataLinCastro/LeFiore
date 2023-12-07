@@ -15,17 +15,18 @@ header,footer{
     /* background-color: rgba(0, 0, 255, 0.455); */
 }
 nav ul{
+    margin: 0%;
     text-align: right;
     justify-content: right;
 }
 h1{
-    font-size: 50px;
+    font-size: 100px;
     color: #a49a22;
     text-align: center;
 }
 header a{
     font-size: 20px;
-    margin: 4px;
+    margin: 5px;
     text-decoration: none;
     color: #b8ae3c;
 }

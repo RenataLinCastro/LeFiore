@@ -11,7 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="pagina">
+    <div id="pagina" class="bg-black text-white">
         <header>
             <nav>
                 <h1>LeFiore</h1>
@@ -26,69 +26,97 @@
             </nav>
         </header>
         <main>
+          <!-- Banner Bolsas -->
             <div id="bannerChloe">
                 <img src="../../image/bolsas/bannerBolsaFotos.png"  class="container-fluid w-100" alt="">
             </div>
-            <div id="Card" class="d-flex">
-                <aside id="ladoEsquerdo"  class=" d-flex w-50 ">
+
+            <!-- Fotos dos produtos -->
+            <div id="titleSession" class="text-center ">
+              <h3 class="my3">Chloe Bolsas</h3>
+            </div>
+            <div id="photoModels" class="container mx-auto my-3 col py-3 px-md-5 b">
+              <section id="catalogoSection" class="d-flex  container-fluid text-center">
+                <div id="produtosGrupo" class=" m-40 justify-content-center gap-3 container-fluid my-2 p-0 ">
+                    <div id="card" class="card col-3" style="width: 18rem;">    
+                        <img src="../../image/index/cluch couro.jpg" class="card-img-top w-100"alt="...">
+                        </div>
+                    
+                    <div id="card" class="card col-3" style="width: 18rem;">
+                        <img src="../../image/index/clutch artesanal.jpg"  class="card-img-top w-100" alt="...">
+                    </div>
+                    <div id="card" class="card col-3" style="width: 18rem;">
+                        <img src="../../image/index/clutch couro2.jpg" class="card-img-top w-100" alt="...">
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <div>
+              <!-- Carousel Modelos -->
+              <aside id="ladoDireito" class=" d-flex aling-items-right ">
+                <div id="carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../image/bolsas/xu-duo-6biNwGcYHl0-unsplash.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../image/bolsas/pexels-christie-photography-10297717.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../image/bolsas/pexels-ilyasick-photo-10280614.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </aside>
+            </div>
+                    <!-- Produtos -->
+            <div id="contentBags" class="d-flex">
+                <aside id="ladoEsquerdo"  class=" d-flex column">
                     <section id="catalogoSection" class="d-flex  container-fluid text-center">
-                        <h3 class="my3">Acessórios</h3>
                         <div id="produtosGrupo" class=" m-40 justify-content-center gap-3 container-fluid my-2 p-0 ">
-                            <div class="card" style="width: 18rem;">
+                            <div id="card" class="card" style="width: 18rem;">
                                 <img src="../../image/index/cluch couro.jpg" class="card-img-top w-100"alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Clutch</h5>
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bolsaModal1">Comprar</button>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
+                            <div id="card" class="card" style="width: 18rem;">
                                 <img src="../../image/index/clutch artesanal.jpg"  class="card-img-top w-100" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Chloe Bag</h5>
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bolsaModal2">Comprar</button>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
+                            <div id="card" class="card" style="width: 18rem;">
                                 <img src="../../image/index/clutch couro2.jpg" class="card-img-top w-100" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Little Cloe Bag</h5>
+                                  <h5 class="card-title">Little Chloe Bag</h5>
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bolsaModal3">Comprar</button>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </aside>
-                <aside id="ladoDireito" class=" d-flex w-50 aling-items-right ">
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="../../image/bolsas/xu-duo-6biNwGcYHl0-unsplash.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../../image/bolsas/pexels-christie-photography-10297717.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../../image/bolsas/pexels-ilyasick-photo-10280614.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    
-                </aside>
             </div>
+                
         </main>
         <footer>
             <h6>LeFiore</h6>
         </footer>
-    </div>
 
+
+
+<!-- Modal Clutch -->
     <div class="modal" id="bolsaModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -107,6 +135,7 @@
         </div>
       </div>
 
+<!-- Modal Chloe Bag -->
       <div class="modal" id="bolsaModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -125,6 +154,7 @@
         </div>
       </div>
 
+<!-- Modal Little Chloe Bag-->
       <div class="modal" id="bolsaModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">

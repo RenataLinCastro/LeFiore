@@ -7,6 +7,9 @@
     --amarelo:#c7c730;
     --branco:white;
 }
+header, footer{
+    background-color: #eec9b7;
+}
 main{
     align-items: center;
     justify-content: center;
@@ -25,4 +28,15 @@ main{
 }
 #catalogoSection{
     background-color: #eec9b7;
+    color: #8f8609;
+}
+#acess{
+    height: 420px;
+}
+
+button{
+    color: white;
+    border: 1px solid #a1694d;
+    border-radius: 100%;
+    background-color:  #dba082;
 }
