@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 50vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+label, input,textarea{
+    margin: auto;
+
+}
