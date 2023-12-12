@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../../style/geral.css">
-    <link rel="stylesheet" href="../../style/cadastro.css">
-    <link rel="stylesheet" href="../../style/login.css">
+    <link rel="stylesheet" href="../../../style/geral.css">
+    <link rel="stylesheet" href="../../../style/registro/cadastro.css">
+    <link rel="stylesheet" href="../../../style/registro/login.css">
+
+    <style>
+        .temaClaro{
+            background-color: rgb(192, 192, 192);
+            color: black;
+            transition: 1s;
+        }
+        .temaEscuro{
+            background-color: black;
+            color: white;
+            transition: 1s;
+        }
+    </style>
 </head>
 <body>
     <div id="login">
@@ -21,6 +34,7 @@
                     <h1>Le Fiore</h1>
                 </div>
                 <nav>
+                    <button type="button" class="temaClaro" id="btnTema">Tema: Claro</button>
                     <ul>
                         <a href="../../index.html">Início</a>
                         <a href="#">Bolsas</a>
@@ -58,6 +72,7 @@
             <h6>Le Fiore</h6>
         </footer>
     </div>
-    
+    <script src="../../../jquery-3.7.1.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

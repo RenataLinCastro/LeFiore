@@ -1,28 +1,11 @@
-// var btnComprar = $(`#btnComprar`)
-// var valor = 300
-// var total = valor * $(`#qntProduto`)
+var btnComprar = $(`#btnComprar`)
+var valor = 300
+var undCompras = Number($("#qntProduto").val())
+var total = 0
 
-class Cadastro {
-    constructor(nome, email, senha){
-        this.nome = nome;
-        this.email = email;
-        this.senha = senha;
-    }
-}
+//null: quando você cria uma variável que irá receber um valor futuro.
 
-var cadastroBtn = document.querySelector("#btnCadastro");
-var listarBtn = document.querySelector("#listarBtn");
-cadastroBtn.addEventListener("click", cadastrar);
-listarBtn.addEventListener("click", listar)
-
-function cadastrar(){
-    let nomeFilme = document.querySelector("#nomeFilme").value;
-    let descricao = document.querySelector("#descricao").value;
-    let data = document.querySelector("#data").value;
-    let categ = document.querySelector("#categ").value;
-    let msgCadastro = document.querySelector("#msgCadastro");
-
-
-    filmes.push(new Filme(nomeFilme, descricao, data, categ));
-    msgCadastro.innerHTML = `<h5 class="sucesso">Filme Cadastrado</h5>`
-}
+btnComprar.on("click", function(){
+    total = undCompras * valor
+    alert(`O total foi de R$ ${total}`)
+});

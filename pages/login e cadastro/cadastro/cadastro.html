@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar-se</title>
-    <link rel="stylesheet" href="../../style/geral.css">
-    <link rel="stylesheet" href="../../style/cadastro.css">
+    <link rel="stylesheet" href="../../../style/geral.css">
+    <link rel="stylesheet" href="../../../style/registro/cadastro.css">
+
+    <style>
+        .temaClaro{
+            background-color: rgb(192, 192, 192);
+            color: black;
+            transition: 1s;
+        }
+        .temaEscuro{
+            background-color: black;
+            color: white;
+            transition: 1s;
+        }
+    </style>
 </head>
 <body>
     <div id="cadastro">
@@ -33,25 +46,31 @@
                 <h1> Cadastre-se</h1>
 
                 <label for="nome">Insira seu nome completo</label>
-                <input type="text" id="nome" placeholder="Insira seu nome">
+                <input type="text" id="nomeUsuario" placeholder="Insira seu nome">
     
     
                 <label for="nome">Seu melhor email</label>
-                <input type="text" id="email" placeholder="email">
+                <input type="text" id="emailUsuario" placeholder="email">
     
     
                 <label for="Senha">Senha</label>
-                <input type="password" id="nome" placeholder="Insira sua Senha">
+                <input type="password" id="senhaUsuario" placeholder="Insira sua Senha">
+
+                <label for="data">Sua data de aniversário</label>
+                <input type="date" id="niverUsuario" placeholder="Data de Nascimento">
 
                 <label for="Senha">Qual o seu livro favorito?</label>
-                <input type="password" id="livro" placeholder="Livro">
+                <input type="password" id="livroUsuario" placeholder="Livro">
     
-                <button type="submit" id="cadastroBtn"><a href="../login e cadastro/confirmacao.html"></a> Cadastrar</button>
+                <button type="submit" id="btnCadastro"><a href="../login e cadastro/confirmacao.html"></a> Cadastrar</button>
             </div>
         </main>
         <footer>
             <h2>Le Fiore</h2>
         </footer>
+        <script src="../../../jquery-3.7.1.js"></script>
+        <script src="cadastro.js"></script>
+
     </div>
 </body>
 </html>

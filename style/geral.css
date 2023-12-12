@@ -7,7 +7,7 @@ header,footer{
     height: auto;
     width: 100%;
     /* display: flex; */
-    background-color: #000000;
+    background-color: #00000000;
     color: #a49a22;
 }
 .asideEsquerdo{
@@ -20,7 +20,7 @@ nav ul{
     justify-content: right;
 }
 h1{
-    font-size: 100px;
+    font-size: 60px;
     color: #a49a22;
     text-align: center;
 }
@@ -29,6 +29,9 @@ header a{
     margin: 5px;
     text-decoration: none;
     color: #b8ae3c;
+}
+header button{
+    
 }
 footer{
     text-align: center;
